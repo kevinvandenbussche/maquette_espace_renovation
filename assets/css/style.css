@@ -1,0 +1,53 @@
+ul {
+  list-style: none;
+}
+
+header, footer {
+  background-color: #112E3E;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parentTitle {
+  position: relative;
+  z-index: 0;
+}
+
+.gold {
+  color: gold;
+}
+
+.title {
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 200px;
+}
+
+.fontFirstText {
+  font-size: 1.5rem;
+}
+
+.fontSizeTitleExplication {
+  font-size: 1.2rem;
+}
+
+.linkCalandar {
+  background-color: #112E3E;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: 1px solid #112E3E;
+}
+.linkCalandar:hover {
+  background-color: white;
+  color: #112E3E !important;
+  transition: all ease-in-out 0.2s;
+}
+
+ul {
+  padding-inline-start: 0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

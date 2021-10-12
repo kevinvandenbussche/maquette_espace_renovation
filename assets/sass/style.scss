@@ -1,0 +1,55 @@
+@import "variable";
+
+ul{
+    list-style: none;
+}
+
+header, footer{
+    background-color: $colorHeader;
+}
+
+a{
+    text-decoration: none;
+}
+
+.parentTitle{
+    position: relative;
+    z-index: 0;
+}
+
+.gold{
+    color: $goldTitle;
+}
+
+.title{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    top: 200px;
+}
+
+.fontFirstText{
+    font-size:  $fontFirstText
+}
+
+.fontSizeTitleExplication{
+    font-size: $fontSizeExplication;
+}
+
+.linkCalandar{
+    background-color: $colorHeader;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 1px solid $colorHeader;
+    &:hover{
+        background-color: white;
+        color: $colorHeader !important;
+        transition: all ease-in-out 0.2s;
+        
+    }
+}
+
+ul{
+    padding-inline-start: 0 !important;
+}
+
