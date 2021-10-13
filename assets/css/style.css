@@ -22,8 +22,8 @@ a {
 .title {
   position: absolute;
   z-index: 1;
-  left: 50px;
-  top: 200px;
+  left: 5%;
+  top: 40%;
 }
 
 .fontFirstText {
